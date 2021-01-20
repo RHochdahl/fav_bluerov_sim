@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="object_5">
+    <static>true</static>
+    <link name="object_5_link">
+      <visual name="box">
+        <geometry>
+          <box>
+            <size>0.12 0.12 0.12</size>
+          </box>
+        </geometry>
+      </visual>
+    </link>
+    <include>
+      <uri>model://tag36_11_00093</uri>
+      <pose>0.065 0.0 0.0 0.0 1.5708 0.0</pose>
+    </include>
+    <include>
+      <uri>model://tag36_11_00094</uri>
+      <pose>-0.065 0.0 0.0 0.0 -1.5708 0.0</pose>
+    </include>
+    <include>
+      <uri>model://tag36_11_00095</uri>
+      <pose>0.0 0.065 0.0 -1.5708 -0.0 0.0</pose>
+    </include>
+    <include>
+      <uri>model://tag36_11_00096</uri>
+      <pose>0.0 -0.065 0.0 1.5708 -0.0 0.0</pose>
+    </include>
+    <include>
+      <uri>model://tag36_11_00097</uri>
+      <pose>0.0 0.0 0.065 0.0 -0.0 0.0</pose>
+    </include>
+    <include>
+      <uri>model://tag36_11_00098</uri>
+      <pose>0.0 0.0 -0.065 3.1416 -0.0 0.0</pose>
+    </include>
+  </model>
+</sdf>

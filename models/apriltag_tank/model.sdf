@@ -42,6 +42,46 @@
     </link>
     <static>true</static>
     <include>
+      <uri>model://object_0</uri>
+      <pose>0.75 1.0 -0.6 0.0 -0.0 0.0</pose>
+    </include>
+    <include>
+      <uri>model://object_1</uri>
+      <pose>0.3 1.4 -0.4 0.0 -0.0 0.0</pose>
+    </include>
+    <include>
+      <uri>model://object_2</uri>
+      <pose>1.4 2.75 -0.8 0.0 -0.0 0.0</pose>
+    </include>
+    <include>
+      <uri>model://object_3</uri>
+      <pose>0.5 0.2 -0.2 0.0 -0.0 0.0</pose>
+    </include>
+    <include>
+      <uri>model://object_4</uri>
+      <pose>0.8 1.6 -0.5 0.0 -0.0 0.0</pose>
+    </include>
+    <include>
+      <uri>model://object_5</uri>
+      <pose>0.3 2.3 -0.6 0.0 -0.0 0.0</pose>
+    </include>
+    <include>
+      <uri>model://object_6</uri>
+      <pose>1.1 2.75 -0.5 0.0 -0.0 0.0</pose>
+    </include>
+    <include>
+      <uri>model://object_7</uri>
+      <pose>0.3 0.5 -0.3 0.0 -0.0 0.0</pose>
+    </include>
+    <include>
+      <uri>model://object_8</uri>
+      <pose>1.7 2.4 -0.8 0.0 -0.0 0.0</pose>
+    </include>
+    <include>
+      <uri>model://object_9</uri>
+      <pose>1.4 0.2 -1.0 0.0 -0.0 0.0</pose>
+    </include>
+    <include>
       <uri>model://tag36_11_00000</uri>
       <pose>1.56 0.06 -1.3 0.0 -0.0 0.0</pose>
     </include>
