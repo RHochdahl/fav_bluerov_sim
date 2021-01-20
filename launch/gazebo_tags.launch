@@ -1,8 +1,19 @@
 <launch>
     <arg name="gui" default="true" />
-    <include file="$(find gazebo_ros)/launch/empty_world.launch">
-        <arg name="world_name" value="$(find bluerov_sim)/worlds/tank_with_tags.world" />
-        <arg name="verbose" value="true" />
-        <arg name="gui" value="$(arg gui)" />
-    </include>
+    <arg name="objects" default="false" />
+
+    <group if="$(arg objects)">
+        <include file="$(find gazebo_ros)/launch/empty_world.launch">
+            <arg name="world_name" value="$(find bluerov_sim)/worlds/tank_with_tags_and_objects.world" />
+            <arg name="verbose" value="true" />
+            <arg name="gui" value="$(arg gui)" />
+        </include>
+    </group>
+    <group unless="$(arg objects)">
+        <include file="$(find gazebo_ros)/launch/empty_world.launch">
+            <arg name="world_name" value="$(find bluerov_sim)/worlds/tank_with_tags.world" />
+            <arg name="verbose" value="true" />
+            <arg name="gui" value="$(arg gui)" />
+        </include>
+    </group>
 </launch>
