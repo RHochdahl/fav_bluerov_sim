@@ -87,7 +87,7 @@
         <plugin name="pressure_plugin" filename="libgazebo_pressure_plugin.so">
             <robotNamespace />
             <pubRate>50</pubRate>
-            <noise>100.0</noise>
+            <noise>50.0</noise>
         </plugin>
 
         <plugin name="range_sensor_plugin" filename="libgazebo_range_sensor_plugin.so">
