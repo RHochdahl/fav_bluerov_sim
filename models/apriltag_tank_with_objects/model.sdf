@@ -70,6 +70,7 @@
       <uri>model://object_3</uri>
       <pose>0.5 1.2 -0.5 0.0 0.0 0.0</pose>
     </include>
+    <!--
     <include>
       <uri>model://object_4</uri>
       <pose>0.8 1.6 -0.5 0.0 0.0 0.0</pose>
@@ -94,5 +95,6 @@
       <uri>model://object_9</uri>
       <pose>1.7 0.2 -0.5 0.0 0.0 0.0</pose>
     </include>
+    -->
   </model>
 </sdf>

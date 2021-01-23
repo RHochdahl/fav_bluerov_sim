@@ -7,7 +7,7 @@
     <arg name="R" default="0.0" />
     <arg name="Y" default="1.57" />
     <arg name="camera" default="true" />
-    <arg name="objects" default="true" />
+    <arg name="objects" default="false" />
 
     <include file="$(find bluerov_sim)/launch/gazebo_tags.launch">
         <arg name="objects" value="$(arg objects)" />
